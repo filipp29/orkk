@@ -1,0 +1,1 @@
+<textarea oninput="inputStretch(this);inputAreaAutoSize(this)" class="inp inputArea stretch  <?=isset($class) ? $class : ""?>" type="text" name="name" id="<?=isset($id) ? $id : ""?>" style="<?=isset($style) ? makeStyle($style) : ""?>" <?= isset($attribute) ? makeAttribute($attribute) : "" ?> ><?=isset($value) ? $value : ""?></textarea>

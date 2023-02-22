@@ -1,0 +1,1 @@
+<textarea class="inp inputArea <?=isset($class) ? $class : ""?>" type="text" name="name" id="<?=isset($id) ? $id : ""?>" style="<?=isset($style) ? makeStyle($style) : ""?>" <?= isset($attribute) ? makeAttribute($attribute) : "" ?> ><?=isset($value) ? $value : ""?></textarea>

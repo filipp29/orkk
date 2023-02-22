@@ -1,0 +1,14 @@
+.infoSelected{
+    color: var(--modColor_darkest);
+    cursor: pointer;
+}
+
+.infoWaiting{
+    color: #777;
+    cursor: pointer;
+}
+
+.infoWaiting:hover{
+    color: var(--modColor_darkest);
+}
+
